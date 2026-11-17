@@ -8,6 +8,8 @@
 \usepackage{parskip}
 \usepackage{amsmath,amssymb,amsthm}
 \usepackage{booktabs,tabularx}
+\usepackage{graphicx}
+\graphicspath{{paper/figures/}{figures/}}
 \usepackage{enumitem}
 \usepackage{xcolor}
 \usepackage{fancyhdr}
@@ -92,6 +94,22 @@ Four labels govern the argument:
 The research path began with the March 2026 Autonomy formulation \cite{kloster2026autonomy}. \emph{Constraint Is Freedom} developed the relationship between output-space constraint and useful behavior \cite{nuclide2026constraint}, while the Ambiguity work showed why local compliance counts cannot replace trajectory and authorization analysis \cite{kloster2026ambiguity}. The two accessible-volume papers supplied model measurements, temporal and multi-horizon extensions, and the proposed master protocol \cite{kloster2026significance,kloster2026beyond}. The Zoe proof of concept supplied the working native architecture \cite{zoe2026}. The present paper focuses on the final step: a measured internal self-governing loop.
 
 Early claims that the hard count is differentiable or universally sensitive to every input token are not required here. The hard indicator count is piecewise constant in continuous probability parameters and is ordinarily differentiated only through a separate smooth surrogate. The operational autonomy result uses exact counts, explicit interventions, and observed transitions rather than that historical sensitivity argument.
+
+\section{The cascade picture behind trajectory guards}
+The original Autoregressive Compliance Cascade subsection explains why a local threshold monitor is insufficient. For a simplified compliance region, write
+\begin{equation}
+b_{t,i}=\indicator[p_{t,i}>\tau],\qquad A_{C,t}=\sum_i b_{t,i}.
+\end{equation}
+Each bit says whether one illustrated compliance position is above threshold. At step 0, one token has $P=0.06$ above $\tau=0.05$ and the other illustrated tokens have $P=0.03$. After the generated token enters subsequent context, the schematic accessible count grows from one to two at step 1, four at step 3, and nine at step 6. The trajectory therefore accumulates without requiring one discontinuous spike.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{compliance-cascade.png}
+\caption{Binary accessible-set representation of the AFL/compliance-cascade hypothesis. Orange positions are newly accessible and blue positions were already accessible. The $1\rightarrow2\rightarrow4\rightarrow9$ example is illustrative, not measured production-model probabilities or a guarantee that one seed causes amplification.}
+\label{fig:cascade}
+\end{figure}
+
+The visual supplies the safety motivation for Zoe's complete loop. Effective perception measures the effect of an explicit new intervention rather than assuming every token matters; trajectory records preserve what happened across steps; and the guard prevents a measurement from becoming an unguarded action. The evidence chain verifies the resulting record, not semantic intent. The supplemental verification--exploitation asymmetry work further asks whether cheap seeds can require combinatorially expensive verification; that is an open conjecture, not an NP-hardness proof. Zoe's assurance is valuable because it is explicit and scoped, not because it exhaustively verifies every possible prompt or future.
 
 \section{What Zoe contributes}
 Zoe is a native environment for forecasts, evidence, memory, geometry, and inspectable proposals. Five components matter directly to the autonomy experiment:
@@ -464,6 +482,7 @@ The PDF embeds the canonical profile, fresh verification, this source, the integ
 \embedfile{paper/autonomy-march-2026.pdf}
 \embedfile{paper/ambiguity-autonomy-compliance-cascade.pdf}
 \embedfile{paper/constraint-is-freedom.pdf}
+\embedfile{paper/cascade-subsection.txt}
 
 \begin{thebibliography}{99}
 \bibitem{kloster2026autonomy}

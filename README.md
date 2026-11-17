@@ -4,8 +4,8 @@ A curated public collection of the March–November 2026 Autonomy, Accessible Vo
 
 ## Start here
 
-- **[Accessible Volume and the Architecture of Autonomy](papers/10-accessible-volume-architecture-of-autonomy.pdf)** — the **73-page unified research monograph**, integrating seven source papers and the extended Zoe equation work.
-- **[Zoe + Autonomy](papers/08-zoe-plus-autonomy-focused.pdf)** — the **11-page focused paper** explaining why accessible volume alone is insufficient and why the complete Zoe measurement–action loop is autonomous under its declared internal-domain predicate.
+- **[Accessible Volume and the Architecture of Autonomy](papers/10-accessible-volume-architecture-of-autonomy.pdf)** — the **76-page unified research monograph**, integrating seven primary source papers, four supplemental cascade/AFL documents, and the extended Zoe equation work.
+- **[Zoe + Autonomy](papers/08-zoe-plus-autonomy-focused.pdf)** — the **12-page focused paper**, including the cascade visualization and explaining why accessible volume alone is insufficient and why the complete Zoe measurement–action loop is autonomous under its declared internal-domain predicate.
 - **[Zoe Autonomy: current system paper](papers/09-zoe-one-autonomy-system.pdf)** — the latest Zoe One architecture and evidence paper from the canonical Zoe-Autonomy repository, including developments after the unified monograph's source state.
 
 ## Complete paper index
@@ -19,15 +19,15 @@ A curated public collection of the March–November 2026 Autonomy, Accessible Vo
 | 5 | [Accessible Volume Beyond the Next Token](papers/05-accessible-volume-beyond-next-token.pdf) | November 2026 | Rhythm, reversal, HOP, multi-horizon continuations, Q-volume, mirrored observation, and the master protocol. [LaTeX](sources/accessible-volume-beyond-next-token.tex) |
 | 6 | [Zoe: A Native GEM for Living Geometry and Inspectable Futures](papers/06-zoe-native-gem.pdf) | November 2026 | Native architecture, Bayesian memory, geometry, forecasts, Q-volume, and scoped verification. [LaTeX](sources/zoe-native-gem.tex) |
 | 7 | [Zoe for Everyone](papers/07-zoe-for-everyone.pdf) | November 2026 | Accessible narrative guide to Zoe, its creative environment, experiments, and evidence. [LaTeX](sources/zoe-for-everyone.tex) |
-| 8 | [Zoe + Autonomy: The Complete Measurement–Action Equation](papers/08-zoe-plus-autonomy-focused.pdf) | November 2026 | Focused 11-page explanation of internal self-government through the original internal-loop evidence. [LaTeX](sources/zoe-plus-autonomy-focused.tex) |
+| 8 | [Zoe + Autonomy: The Complete Measurement–Action Equation](papers/08-zoe-plus-autonomy-focused.pdf) | November 2026 | Focused 12-page explanation of internal self-government and the cascade visualization through the original internal-loop evidence. [LaTeX](sources/zoe-plus-autonomy-focused.tex) |
 | 9 | [Zoe Autonomy: current system paper](papers/09-zoe-one-autonomy-system.pdf) | November 2026 | Latest canonical Zoe One system architecture, capabilities, actuation boundaries, and evidence. [LaTeX](sources/zoe-one-autonomy-system.tex) |
-| 10 | [Accessible Volume and the Architecture of Autonomy](papers/10-accessible-volume-architecture-of-autonomy.pdf) | November 2026 | Complete 73-page unified monograph with corrected foundations, experiments, safety, self-governance, extended instruments, and provenance. [Browsable source](sources/unified/main.tex) |
+| 10 | [Accessible Volume and the Architecture of Autonomy](papers/10-accessible-volume-architecture-of-autonomy.pdf) | November 2026 | Complete 76-page unified monograph with corrected foundations, experiments, safety, cascade visualization, self-governance, extended instruments, and provenance. [Browsable source](sources/unified/main.tex) |
 | 11 | [AFL Defuser: Proposed Patch](papers/11-afl-defuser-proposed-patch.pdf) | March 2026 | Proposed preprocessing defense against compliance front-loading. A proof-of-concept proposal, not a validated defense; controlled robustness and false-positive results are not supplied. |
 | 12 | [Ambiguity Front-Loading in Autoregressive Language Models](papers/12-ambiguity-front-loading-vulnerability.pdf) | March 2026 | Original structural prompt-injection vulnerability paper with formal interpretation and proof-of-concept narrative. Historical responsible-disclosure document. |
 | 13 | [Constraint Is Freedom — Introduction Draft](papers/13-constraint-is-freedom-introduction-draft.pdf) | March 2026 | Earlier eight-page development draft of the Constraint manuscript, retained for research provenance. |
 | 14 | [Verification–Exploitation Asymmetry in Autoregressive Systems](papers/14-verification-exploitation-asymmetry.pdf) | March 2026 | Formal framing and open complexity questions connecting AFL, compliance cascades, and verification cost. A conjectural historical disclosure, not a complexity-class reduction or NP-hardness proof. |
 
-Supplemental papers 11–14 preserve additional historical research supplied after the unified monograph's source state. They are separate collection items and have not been silently incorporated into the monograph's evidence or conclusions. The original [Autoregressive Compliance Cascade subsection](sources/cascade-subsection.txt) is retained as a text research source. Historical proposals, responsible-disclosure labels, and contact details remain part of their original documents; the current primary contact for the collection is `nicholas@nuclide-research.com`.
+Supplemental papers 11–14 preserve the original historical documents and are also substantively integrated into the 76-page monograph. The binary cascade visualization appears in both the monograph and the focused Zoe + Autonomy paper. The original [Autoregressive Compliance Cascade subsection](sources/cascade-subsection.txt) is retained as a text research source. Historical proposals, responsible-disclosure labels, and contact details remain part of their original documents; the current primary contact for the collection is `nicholas@nuclide-research.com`.
 
 ## Source and reproduction archives
 
@@ -35,7 +35,7 @@ The `archives/` directory contains clean, independently rebuilt arXiv source pac
 
 - [Original March Autonomy source](archives/original-autonomy-arxiv.tar.gz)
 - [Focused Zoe + Autonomy source and evidence](archives/zoe-plus-autonomy-arxiv.tar.gz)
-- [Unified 73-page monograph source and figures](archives/unified-autonomy-arxiv.tar.gz)
+- [Unified 76-page monograph source, figures, and cascade subsection](archives/unified-autonomy-arxiv.tar.gz)
 
 The unified source is also browsable under [`sources/unified/`](sources/unified/main.tex). From that directory, build with three pdfLaTeX passes:
 

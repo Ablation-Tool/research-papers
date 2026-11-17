@@ -28,6 +28,8 @@ TITLES = {
     '12-ambiguity-front-loading-vulnerability': 'Ambiguity Front-Loading in Autoregressive Language Models',
     '13-constraint-is-freedom-introduction-draft': 'Constraint Is Freedom — Introduction Draft',
     '14-verification-exploitation-asymmetry': 'Verification–Exploitation Asymmetry in Autoregressive Systems',
+    '15-zoe-visual-guide-collection': 'Zoe Visual Guide Collection',
+    '16-zoe-practice-navigator': 'Zoe Practice Navigator',
 }
 
 
@@ -145,7 +147,7 @@ def build_gallery(pdf: Path) -> dict:
                     caption_index = next(index for index, item in enumerate(page_records) if item['number'] == record['number'])
                     record['captions'] = [caption_values[caption_index]]
                 else:
-                    record['captions'] = caption_values
+                    record['captions'] = []
 
     run([
         'pdftoppm', '-jpeg', '-r', '144', '-jpegopt', 'quality=88,optimize=y',
@@ -249,6 +251,12 @@ def main() -> None:
             f'| {manifest["title"]} | {manifest["pdf_pages"]} | {len(manifest["extracted_images"])} | [Open gallery]({slug}/README.md) |'
         )
     lines.extend([
+        '',
+        '## Zoe research topic galleries',
+        '',
+        '- [Dorothy and Neurogarden](zoe-dorothy/README.md)',
+        '- [CERN research in Zoe](zoe-cern/README.md)',
+        '- [Complete Zoe research asset index](zoe-research/README.md)',
         '',
         'The page index is authoritative for complete visual coverage. Extracted images are provided in addition so figures can be opened directly at their original embedded resolution without reading the surrounding page.',
         '',

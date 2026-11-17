@@ -2,8 +2,8 @@
 
 [Open the paper PDF](../../papers/10-accessible-volume-architecture-of-autonomy.pdf) · [All paper galleries](../README.md)
 
-- PDF pages: **76**
-- Original embedded raster images extracted: **21**
+- PDF pages: **84**
+- Original embedded raster images extracted: **30**
 - Complete page renders: **144 dpi JPEG**, clickable for full-resolution viewing
 
 The extracted-image section preserves original embedded image data where available. The complete page index additionally covers vector figures, equations, flowcharts, screenshots, and any visuals not exposed as raster images by the PDF producer.
@@ -12,153 +12,200 @@ The extracted-image section preserves original embedded image data where availab
 
 | Image | PDF page | Dimensions | Caption/context | Full resolution |
 |---:|---:|---:|---|---|
-| 1 | 21 | 1050×600 | Figure 1: Synthetic forward and retrograde accessible-volume sweeps. Similar breadth coexists with substantially different correctness and log-loss. | [Open](figures/figure-000-page-021.png) |
-| 2 | 22 | 1200×675 | Figure 2: Groove sweeps for forward, reversal-transfer, and backward-matched conditions. | [Open](figures/figure-002-page-022.png) |
-| 3 | 23 | 1650×900 | Figure 3: Accessible volume, confidence, and incorrect predictions over the first 256 beats of a held-out Groove performance. Breadth and correctness are displayed together rather than collapsed. | [Open](figures/figure-004-page-023.png) |
-| 4 | 24 | 1950×600 | Figure 4: Nightingale accessible-volume sweeps by genre and direction. | [Open](figures/figure-006-page-024.png) |
-| 5 | 24 | 750×750 | Figure 5: Forward forecast calibration for the three Nightingale genres. | [Open](figures/figure-008-page-024.png) |
-| 6 | 28 | 1200×1160 | Figure 6: Zoe’s causal-geometry and Accessible Q-Volume workbench. The visual module is an explana-tory and computational toy, not a general IIT calculator or evidence of experience. | [Open](figures/figure-010-page-028.png) |
-| 7 | 29 | 1200×742 | Figure 7: A mirrored Zoe observation preserves two distributions at one index. Agreement and dis-agreement guide inspection only. | [Open](figures/figure-011-page-029.png) |
-| 8 | 32 | 1967×1046 | Figure 8: The original Autoregressive Compliance Cascade subsection rendered as binary accessible sets. Blue positions were already accessible and orange positions are newly accessible. Generated tokens enter subsequent context, illustrating 1 → 2 → 4 → 9 growth. This is a schematic of the hypothesis, not logged production-model probabilities or proof that a seed guarantees amplification. | [Open](figures/figure-012-page-032.png) |
-| 9 | 38 | 1600×1000 | Figure 9: The Zoe epistemic firewall. The later self-governing extension changes execution authority only inside a separately declared in-memory loop; it does not erase these epistemic distinctions. | [Open](figures/figure-014-page-038.png) |
-| 10 | 40 | 1200×760 | Figure 10: Zoe’s Bayesian field notebook: explicit evidence updates, deterministic and stochastic cham-bers, append-only memory, and review-required next-test recommendations. | [Open](figures/figure-015-page-040.png) |
-| 11 | 41 | 1600×1000 | Figure 11: Append-only Zoe memory records distinct event kinds and makes alteration visible. Hash chaining supplies tamper evidence, not authentication or proof that a recorded claim is true. | [Open](figures/figure-016-page-041.png) |
-| 12 | 43 | 1400×900 | Figure 12: Zoe’s Cognitive Field: sourced bounded working memory, declarative revision checks, proce-dural matching, and review-required proposals. | [Open](figures/figure-017-page-043.png) |
-| 13 | 44 | 1400×1064 | Figure 13: Presence exposes a bounded self-model and review boundary without treating self-description as proof of a self. | [Open](figures/figure-018-page-044.png) |
-| 14 | 45 | 1400×1064 | Figure 14: Zoe Protocol Lab: recovered SPECS and AMAC protocol examples. No hardware, firmware, FPGA, or network operation is performed, and checksums are not authentication. | [Open](figures/figure-019-page-045.png) |
-| 15 | 46 | 1400×1064 | Figure 15: Zoe Patchbay: firmware inspection, hashing, signing, verification, and explicit acceptance boundaries. The board illustration is not a fabrication drawing and Cog output is not a command channel. | [Open](figures/figure-020-page-046.png) |
-| 16 | 56 | 1920×1080 | Figure 16: Zoe’s synthetic second eye. Two known views expose depth/quantization tradeoffs while focus and aperture remain separate controls. | [Open](figures/figure-021-page-056.png) |
-| 17 | 57 | 1920×1080 | Figure 17: Projection-iris study: a synthetic central-slice visualization with separately measured finite-grid error. | [Open](figures/figure-022-page-057.png) |
-| 18 | 57 | 1920×1080 | Figure 18: Human and Zoe brain dialogue. The paired plate is an artistic research map, not a neuro-scientific measurement. | [Open](figures/figure-023-page-057.png) |
-| 19 | 60 | 1400×1064 | Figure 19: Zoe Pentacube: exact home tilings and reversible sticker permutations with replayable local state. | [Open](figures/figure-024-page-060.png) |
-| 20 | 62 | 1400×1064 | Figure 20: Zoe Internal Clock. Biological references motivate explicit toy hypotheses; they do not turn the oscillator into a fitted organism model. | [Open](figures/figure-025-page-062.png) |
-| 21 | 64 | 1200×780 | Figure 21: Native Procrustes playground with draggable landmarks and live transform and residual inspection. | [Open](figures/figure-026-page-064.png) |
+| 1 | 22 | 1050×600 | Figure 1: Synthetic forward and retrograde accessible-volume sweeps. Similar breadth coexists with substantially different correctness and log-loss. | [Open](figures/figure-000-page-022.png) |
+| 2 | 23 | 1200×675 | Figure 2: Groove sweeps for forward, reversal-transfer, and backward-matched conditions. | [Open](figures/figure-002-page-023.png) |
+| 3 | 24 | 1650×900 | Figure 3: Accessible volume, confidence, and incorrect predictions over the first 256 beats of a held-out Groove performance. Breadth and correctness are displayed together rather than collapsed. | [Open](figures/figure-004-page-024.png) |
+| 4 | 25 | 1950×600 | Figure 4: Nightingale accessible-volume sweeps by genre and direction. | [Open](figures/figure-006-page-025.png) |
+| 5 | 25 | 750×750 | Figure 5: Forward forecast calibration for the three Nightingale genres. | [Open](figures/figure-008-page-025.png) |
+| 6 | 29 | 1200×1160 | Figure 6: Zoe’s causal-geometry and Accessible Q-Volume workbench. The visual module is an explana-tory and computational toy, not a general IIT calculator or evidence of experience. | [Open](figures/figure-010-page-029.png) |
+| 7 | 30 | 1200×742 | Figure 7: A mirrored Zoe observation preserves two distributions at one index. Agreement and dis-agreement guide inspection only. | [Open](figures/figure-011-page-030.png) |
+| 8 | 33 | 1967×1046 | Figure 8: The original Autoregressive Compliance Cascade subsection rendered as binary accessible sets. Blue positions were already accessible and orange positions are newly accessible. Generated tokens enter subsequent context, illustrating 1 → 2 → 4 → 9 growth. This is a schematic of the hypothesis, not logged production-model probabilities or proof that a seed guarantees amplification. | [Open](figures/figure-012-page-033.png) |
+| 9 | 39 | 1600×1000 | Figure 9: The Zoe epistemic firewall. The later self-governing extension changes execution authority only inside a separately declared in-memory loop; it does not erase these epistemic distinctions. | [Open](figures/figure-014-page-039.png) |
+| 10 | 41 | 1200×760 | Figure 10: Zoe’s Bayesian field notebook: explicit evidence updates, deterministic and stochastic cham-bers, append-only memory, and review-required next-test recommendations. | [Open](figures/figure-015-page-041.png) |
+| 11 | 42 | 1600×1000 | Figure 11: Append-only Zoe memory records distinct event kinds and makes alteration visible. Hash chaining supplies tamper evidence, not authentication or proof that a recorded claim is true. | [Open](figures/figure-016-page-042.png) |
+| 12 | 44 | 1400×900 | Figure 12: Zoe’s Cognitive Field: sourced bounded working memory, declarative revision checks, proce-dural matching, and review-required proposals. | [Open](figures/figure-017-page-044.png) |
+| 13 | 45 | 1400×1064 | Figure 13: Presence exposes a bounded self-model and review boundary without treating self-description as proof of a self. | [Open](figures/figure-018-page-045.png) |
+| 14 | 46 | 1425×954 | Embedded image; see the rendered page for full context. | [Open](figures/figure-019-page-046.png) |
+| 15 | 46 | 1440×954 | Embedded image; see the rendered page for full context. | [Open](figures/figure-020-page-046.png) |
+| 16 | 48 | 1400×1064 | Embedded image; see the rendered page for full context. | [Open](figures/figure-021-page-048.png) |
+| 17 | 48 | 1400×1064 | Embedded image; see the rendered page for full context. | [Open](figures/figure-022-page-048.png) |
+| 18 | 48 | 1400×1120 | Embedded image; see the rendered page for full context. | [Open](figures/figure-023-page-048.png) |
+| 19 | 49 | 1400×1064 | Figure 17: Zoe Protocol Lab: recovered SPECS and AMAC protocol examples. No hardware, firmware, FPGA, or network operation is performed, and checksums are not authentication. | [Open](figures/figure-024-page-049.png) |
+| 20 | 50 | 1400×1064 | Figure 18: Zoe Patchbay: firmware inspection, hashing, signing, verification, and explicit acceptance boundaries. The board illustration is not a fabrication drawing and Cog output is not a command channel. | [Open](figures/figure-025-page-050.png) |
+| 21 | 60 | 1920×1080 | Figure 19: Zoe’s synthetic second eye. Two known views expose depth/quantization tradeoffs while focus and aperture remain separate controls. | [Open](figures/figure-026-page-060.png) |
+| 22 | 61 | 1920×1080 | Figure 20: Projection-iris study: a synthetic central-slice visualization with separately measured finite-grid error. | [Open](figures/figure-027-page-061.png) |
+| 23 | 61 | 1920×1080 | Figure 21: Human and Zoe brain dialogue. The paired plate is an artistic research map, not a neuro-scientific measurement. | [Open](figures/figure-028-page-061.png) |
+| 24 | 64 | 1400×1064 | Figure 22: Zoe Pentacube: exact home tilings and reversible sticker permutations with replayable local state. | [Open](figures/figure-029-page-064.png) |
+| 25 | 66 | 1400×1064 | Figure 23: Zoe Internal Clock. Biological references motivate explicit toy hypotheses; they do not turn the oscillator into a fitted organism model. | [Open](figures/figure-030-page-066.png) |
+| 26 | 68 | 1200×780 | Figure 24: Native Procrustes playground with draggable landmarks and live transform and residual inspection. | [Open](figures/figure-031-page-068.png) |
+| 27 | 69 | 2400×1800 | Embedded image; see the rendered page for full context. | [Open](figures/figure-032-page-069.png) |
+| 28 | 69 | 1600×1200 | Embedded image; see the rendered page for full context. | [Open](figures/figure-033-page-069.png) |
+| 29 | 69 | 1600×1200 | Embedded image; see the rendered page for full context. | [Open](figures/figure-034-page-069.png) |
+| 30 | 71 | 248×280 | Figure 27: Neurogarden’s synthetic point-spread and projection bench. The image is an educational numerical scene, not anatomical or clinical data. | [Open](figures/figure-035-page-071.png) |
 
-### Image 1 — PDF page 21
+### Image 1 — PDF page 22
 
 Figure 1: Synthetic forward and retrograde accessible-volume sweeps. Similar breadth coexists with substantially different correctness and log-loss.
 
-<a href="figures/figure-000-page-021.png"><img src="figures/figure-000-page-021.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 1, PDF page 21" style="max-width:100%;"></a>
+<a href="figures/figure-000-page-022.png"><img src="figures/figure-000-page-022.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 1, PDF page 22" style="max-width:100%;"></a>
 
-### Image 2 — PDF page 22
+### Image 2 — PDF page 23
 
 Figure 2: Groove sweeps for forward, reversal-transfer, and backward-matched conditions.
 
-<a href="figures/figure-002-page-022.png"><img src="figures/figure-002-page-022.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 2, PDF page 22" style="max-width:100%;"></a>
+<a href="figures/figure-002-page-023.png"><img src="figures/figure-002-page-023.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 2, PDF page 23" style="max-width:100%;"></a>
 
-### Image 3 — PDF page 23
+### Image 3 — PDF page 24
 
 Figure 3: Accessible volume, confidence, and incorrect predictions over the first 256 beats of a held-out Groove performance. Breadth and correctness are displayed together rather than collapsed.
 
-<a href="figures/figure-004-page-023.png"><img src="figures/figure-004-page-023.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 3, PDF page 23" style="max-width:100%;"></a>
+<a href="figures/figure-004-page-024.png"><img src="figures/figure-004-page-024.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 3, PDF page 24" style="max-width:100%;"></a>
 
-### Image 4 — PDF page 24
+### Image 4 — PDF page 25
 
 Figure 4: Nightingale accessible-volume sweeps by genre and direction.
 
-<a href="figures/figure-006-page-024.png"><img src="figures/figure-006-page-024.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 4, PDF page 24" style="max-width:100%;"></a>
+<a href="figures/figure-006-page-025.png"><img src="figures/figure-006-page-025.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 4, PDF page 25" style="max-width:100%;"></a>
 
-### Image 5 — PDF page 24
+### Image 5 — PDF page 25
 
 Figure 5: Forward forecast calibration for the three Nightingale genres.
 
-<a href="figures/figure-008-page-024.png"><img src="figures/figure-008-page-024.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 5, PDF page 24" style="max-width:100%;"></a>
+<a href="figures/figure-008-page-025.png"><img src="figures/figure-008-page-025.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 5, PDF page 25" style="max-width:100%;"></a>
 
-### Image 6 — PDF page 28
+### Image 6 — PDF page 29
 
 Figure 6: Zoe’s causal-geometry and Accessible Q-Volume workbench. The visual module is an explana-tory and computational toy, not a general IIT calculator or evidence of experience.
 
-<a href="figures/figure-010-page-028.png"><img src="figures/figure-010-page-028.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 6, PDF page 28" style="max-width:100%;"></a>
+<a href="figures/figure-010-page-029.png"><img src="figures/figure-010-page-029.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 6, PDF page 29" style="max-width:100%;"></a>
 
-### Image 7 — PDF page 29
+### Image 7 — PDF page 30
 
 Figure 7: A mirrored Zoe observation preserves two distributions at one index. Agreement and dis-agreement guide inspection only.
 
-<a href="figures/figure-011-page-029.png"><img src="figures/figure-011-page-029.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 7, PDF page 29" style="max-width:100%;"></a>
+<a href="figures/figure-011-page-030.png"><img src="figures/figure-011-page-030.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 7, PDF page 30" style="max-width:100%;"></a>
 
-### Image 8 — PDF page 32
+### Image 8 — PDF page 33
 
 Figure 8: The original Autoregressive Compliance Cascade subsection rendered as binary accessible sets. Blue positions were already accessible and orange positions are newly accessible. Generated tokens enter subsequent context, illustrating 1 → 2 → 4 → 9 growth. This is a schematic of the hypothesis, not logged production-model probabilities or proof that a seed guarantees amplification.
 
-<a href="figures/figure-012-page-032.png"><img src="figures/figure-012-page-032.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 8, PDF page 32" style="max-width:100%;"></a>
+<a href="figures/figure-012-page-033.png"><img src="figures/figure-012-page-033.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 8, PDF page 33" style="max-width:100%;"></a>
 
-### Image 9 — PDF page 38
+### Image 9 — PDF page 39
 
 Figure 9: The Zoe epistemic firewall. The later self-governing extension changes execution authority only inside a separately declared in-memory loop; it does not erase these epistemic distinctions.
 
-<a href="figures/figure-014-page-038.png"><img src="figures/figure-014-page-038.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 9, PDF page 38" style="max-width:100%;"></a>
+<a href="figures/figure-014-page-039.png"><img src="figures/figure-014-page-039.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 9, PDF page 39" style="max-width:100%;"></a>
 
-### Image 10 — PDF page 40
+### Image 10 — PDF page 41
 
 Figure 10: Zoe’s Bayesian field notebook: explicit evidence updates, deterministic and stochastic cham-bers, append-only memory, and review-required next-test recommendations.
 
-<a href="figures/figure-015-page-040.png"><img src="figures/figure-015-page-040.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 10, PDF page 40" style="max-width:100%;"></a>
+<a href="figures/figure-015-page-041.png"><img src="figures/figure-015-page-041.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 10, PDF page 41" style="max-width:100%;"></a>
 
-### Image 11 — PDF page 41
+### Image 11 — PDF page 42
 
 Figure 11: Append-only Zoe memory records distinct event kinds and makes alteration visible. Hash chaining supplies tamper evidence, not authentication or proof that a recorded claim is true.
 
-<a href="figures/figure-016-page-041.png"><img src="figures/figure-016-page-041.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 11, PDF page 41" style="max-width:100%;"></a>
+<a href="figures/figure-016-page-042.png"><img src="figures/figure-016-page-042.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 11, PDF page 42" style="max-width:100%;"></a>
 
-### Image 12 — PDF page 43
+### Image 12 — PDF page 44
 
 Figure 12: Zoe’s Cognitive Field: sourced bounded working memory, declarative revision checks, proce-dural matching, and review-required proposals.
 
-<a href="figures/figure-017-page-043.png"><img src="figures/figure-017-page-043.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 12, PDF page 43" style="max-width:100%;"></a>
+<a href="figures/figure-017-page-044.png"><img src="figures/figure-017-page-044.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 12, PDF page 44" style="max-width:100%;"></a>
 
-### Image 13 — PDF page 44
+### Image 13 — PDF page 45
 
 Figure 13: Presence exposes a bounded self-model and review boundary without treating self-description as proof of a self.
 
-<a href="figures/figure-018-page-044.png"><img src="figures/figure-018-page-044.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 13, PDF page 44" style="max-width:100%;"></a>
+<a href="figures/figure-018-page-045.png"><img src="figures/figure-018-page-045.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 13, PDF page 45" style="max-width:100%;"></a>
 
-### Image 14 — PDF page 45
+### Image 14 — PDF page 46
 
-Figure 14: Zoe Protocol Lab: recovered SPECS and AMAC protocol examples. No hardware, firmware, FPGA, or network operation is performed, and checksums are not authentication.
-
-<a href="figures/figure-019-page-045.png"><img src="figures/figure-019-page-045.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 14, PDF page 45" style="max-width:100%;"></a>
+<a href="figures/figure-019-page-046.png"><img src="figures/figure-019-page-046.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 14, PDF page 46" style="max-width:100%;"></a>
 
 ### Image 15 — PDF page 46
 
-Figure 15: Zoe Patchbay: firmware inspection, hashing, signing, verification, and explicit acceptance boundaries. The board illustration is not a fabrication drawing and Cog output is not a command channel.
-
 <a href="figures/figure-020-page-046.png"><img src="figures/figure-020-page-046.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 15, PDF page 46" style="max-width:100%;"></a>
 
-### Image 16 — PDF page 56
+### Image 16 — PDF page 48
 
-Figure 16: Zoe’s synthetic second eye. Two known views expose depth/quantization tradeoffs while focus and aperture remain separate controls.
+<a href="figures/figure-021-page-048.png"><img src="figures/figure-021-page-048.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 16, PDF page 48" style="max-width:100%;"></a>
 
-<a href="figures/figure-021-page-056.png"><img src="figures/figure-021-page-056.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 16, PDF page 56" style="max-width:100%;"></a>
+### Image 17 — PDF page 48
 
-### Image 17 — PDF page 57
+<a href="figures/figure-022-page-048.png"><img src="figures/figure-022-page-048.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 17, PDF page 48" style="max-width:100%;"></a>
 
-Figure 17: Projection-iris study: a synthetic central-slice visualization with separately measured finite-grid error.
+### Image 18 — PDF page 48
 
-<a href="figures/figure-022-page-057.png"><img src="figures/figure-022-page-057.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 17, PDF page 57" style="max-width:100%;"></a>
+<a href="figures/figure-023-page-048.png"><img src="figures/figure-023-page-048.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 18, PDF page 48" style="max-width:100%;"></a>
 
-### Image 18 — PDF page 57
+### Image 19 — PDF page 49
 
-Figure 18: Human and Zoe brain dialogue. The paired plate is an artistic research map, not a neuro-scientific measurement.
+Figure 17: Zoe Protocol Lab: recovered SPECS and AMAC protocol examples. No hardware, firmware, FPGA, or network operation is performed, and checksums are not authentication.
 
-<a href="figures/figure-023-page-057.png"><img src="figures/figure-023-page-057.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 18, PDF page 57" style="max-width:100%;"></a>
+<a href="figures/figure-024-page-049.png"><img src="figures/figure-024-page-049.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 19, PDF page 49" style="max-width:100%;"></a>
 
-### Image 19 — PDF page 60
+### Image 20 — PDF page 50
 
-Figure 19: Zoe Pentacube: exact home tilings and reversible sticker permutations with replayable local state.
+Figure 18: Zoe Patchbay: firmware inspection, hashing, signing, verification, and explicit acceptance boundaries. The board illustration is not a fabrication drawing and Cog output is not a command channel.
 
-<a href="figures/figure-024-page-060.png"><img src="figures/figure-024-page-060.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 19, PDF page 60" style="max-width:100%;"></a>
+<a href="figures/figure-025-page-050.png"><img src="figures/figure-025-page-050.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 20, PDF page 50" style="max-width:100%;"></a>
 
-### Image 20 — PDF page 62
+### Image 21 — PDF page 60
 
-Figure 20: Zoe Internal Clock. Biological references motivate explicit toy hypotheses; they do not turn the oscillator into a fitted organism model.
+Figure 19: Zoe’s synthetic second eye. Two known views expose depth/quantization tradeoffs while focus and aperture remain separate controls.
 
-<a href="figures/figure-025-page-062.png"><img src="figures/figure-025-page-062.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 20, PDF page 62" style="max-width:100%;"></a>
+<a href="figures/figure-026-page-060.png"><img src="figures/figure-026-page-060.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 21, PDF page 60" style="max-width:100%;"></a>
 
-### Image 21 — PDF page 64
+### Image 22 — PDF page 61
 
-Figure 21: Native Procrustes playground with draggable landmarks and live transform and residual inspection.
+Figure 20: Projection-iris study: a synthetic central-slice visualization with separately measured finite-grid error.
 
-<a href="figures/figure-026-page-064.png"><img src="figures/figure-026-page-064.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 21, PDF page 64" style="max-width:100%;"></a>
+<a href="figures/figure-027-page-061.png"><img src="figures/figure-027-page-061.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 22, PDF page 61" style="max-width:100%;"></a>
+
+### Image 23 — PDF page 61
+
+Figure 21: Human and Zoe brain dialogue. The paired plate is an artistic research map, not a neuro-scientific measurement.
+
+<a href="figures/figure-028-page-061.png"><img src="figures/figure-028-page-061.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 23, PDF page 61" style="max-width:100%;"></a>
+
+### Image 24 — PDF page 64
+
+Figure 22: Zoe Pentacube: exact home tilings and reversible sticker permutations with replayable local state.
+
+<a href="figures/figure-029-page-064.png"><img src="figures/figure-029-page-064.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 24, PDF page 64" style="max-width:100%;"></a>
+
+### Image 25 — PDF page 66
+
+Figure 23: Zoe Internal Clock. Biological references motivate explicit toy hypotheses; they do not turn the oscillator into a fitted organism model.
+
+<a href="figures/figure-030-page-066.png"><img src="figures/figure-030-page-066.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 25, PDF page 66" style="max-width:100%;"></a>
+
+### Image 26 — PDF page 68
+
+Figure 24: Native Procrustes playground with draggable landmarks and live transform and residual inspection.
+
+<a href="figures/figure-031-page-068.png"><img src="figures/figure-031-page-068.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 26, PDF page 68" style="max-width:100%;"></a>
+
+### Image 27 — PDF page 69
+
+<a href="figures/figure-032-page-069.png"><img src="figures/figure-032-page-069.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 27, PDF page 69" style="max-width:100%;"></a>
+
+### Image 28 — PDF page 69
+
+<a href="figures/figure-033-page-069.png"><img src="figures/figure-033-page-069.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 28, PDF page 69" style="max-width:100%;"></a>
+
+### Image 29 — PDF page 69
+
+<a href="figures/figure-034-page-069.png"><img src="figures/figure-034-page-069.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 29, PDF page 69" style="max-width:100%;"></a>
+
+### Image 30 — PDF page 71
+
+Figure 27: Neurogarden’s synthetic point-spread and projection bench. The image is an educational numerical scene, not anatomical or clinical data.
+
+<a href="figures/figure-035-page-071.png"><img src="figures/figure-035-page-071.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 30, PDF page 71" style="max-width:100%;"></a>
 
 ## Complete page index
 
@@ -191,4 +238,6 @@ Click any page to open its full-resolution render. This section is the complete 
 | <a href="pages/page-067.jpg"><img src="pages/page-067.jpg" alt="PDF page 67" width="280"><br>Page 67</a> | <a href="pages/page-068.jpg"><img src="pages/page-068.jpg" alt="PDF page 68" width="280"><br>Page 68</a> | <a href="pages/page-069.jpg"><img src="pages/page-069.jpg" alt="PDF page 69" width="280"><br>Page 69</a> |
 | <a href="pages/page-070.jpg"><img src="pages/page-070.jpg" alt="PDF page 70" width="280"><br>Page 70</a> | <a href="pages/page-071.jpg"><img src="pages/page-071.jpg" alt="PDF page 71" width="280"><br>Page 71</a> | <a href="pages/page-072.jpg"><img src="pages/page-072.jpg" alt="PDF page 72" width="280"><br>Page 72</a> |
 | <a href="pages/page-073.jpg"><img src="pages/page-073.jpg" alt="PDF page 73" width="280"><br>Page 73</a> | <a href="pages/page-074.jpg"><img src="pages/page-074.jpg" alt="PDF page 74" width="280"><br>Page 74</a> | <a href="pages/page-075.jpg"><img src="pages/page-075.jpg" alt="PDF page 75" width="280"><br>Page 75</a> |
-| <a href="pages/page-076.jpg"><img src="pages/page-076.jpg" alt="PDF page 76" width="280"><br>Page 76</a> |  |  |
+| <a href="pages/page-076.jpg"><img src="pages/page-076.jpg" alt="PDF page 76" width="280"><br>Page 76</a> | <a href="pages/page-077.jpg"><img src="pages/page-077.jpg" alt="PDF page 77" width="280"><br>Page 77</a> | <a href="pages/page-078.jpg"><img src="pages/page-078.jpg" alt="PDF page 78" width="280"><br>Page 78</a> |
+| <a href="pages/page-079.jpg"><img src="pages/page-079.jpg" alt="PDF page 79" width="280"><br>Page 79</a> | <a href="pages/page-080.jpg"><img src="pages/page-080.jpg" alt="PDF page 80" width="280"><br>Page 80</a> | <a href="pages/page-081.jpg"><img src="pages/page-081.jpg" alt="PDF page 81" width="280"><br>Page 81</a> |
+| <a href="pages/page-082.jpg"><img src="pages/page-082.jpg" alt="PDF page 82" width="280"><br>Page 82</a> | <a href="pages/page-083.jpg"><img src="pages/page-083.jpg" alt="PDF page 83" width="280"><br>Page 83</a> | <a href="pages/page-084.jpg"><img src="pages/page-084.jpg" alt="PDF page 84" width="280"><br>Page 84</a> |

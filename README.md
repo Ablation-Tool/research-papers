@@ -12,6 +12,8 @@ A curated public collection of the March–November 2026 Autonomy, Accessible Vo
 
 **[Open the master visual index](galleries/README.md)** — every paper has its own fully viewable image gallery.
 
+For the complete original artwork, animation, interface, branding, and diagram collection—with **359 detailed per-image explanation pages**—visit the dedicated **[Zoe Visual Archive](https://github.com/Ablation-Tool/zoe-visual-archive)**.
+
 - **16 paper galleries**
 - **73 original embedded figures** with captions and PDF page numbers where recoverable
 - **259 complete page renders** at 144 dpi, covering vector diagrams, flowcharts, equations, screenshots, and mixed-content pages

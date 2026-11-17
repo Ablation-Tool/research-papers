@@ -8,6 +8,19 @@ A curated public collection of the March–November 2026 Autonomy, Accessible Vo
 - **[Zoe + Autonomy](papers/08-zoe-plus-autonomy-focused.pdf)** — the **12-page focused paper**, including the cascade visualization and explaining why accessible volume alone is insufficient and why the complete Zoe measurement–action loop is autonomous under its declared internal-domain predicate.
 - **[Zoe Autonomy: current system paper](papers/09-zoe-one-autonomy-system.pdf)** — the latest Zoe One architecture and evidence paper from the canonical Zoe-Autonomy repository, including developments after the unified monograph's source state.
 
+## Visual galleries
+
+**[Open the master visual index](galleries/README.md)** — every paper has its own fully viewable image gallery.
+
+- **14 paper galleries**
+- **43 original embedded figures** with captions and PDF page numbers where recoverable
+- **237 complete page renders** at 144 dpi, covering vector diagrams, flowcharts, equations, screenshots, and mixed-content pages
+- Click any figure or page to open its full-resolution file
+
+Featured indexes: [Unified monograph gallery](galleries/10-accessible-volume-architecture-of-autonomy/README.md) · [Focused Zoe + Autonomy gallery](galleries/08-zoe-plus-autonomy-focused/README.md) · [Constraint Is Freedom gallery](galleries/03-constraint-is-freedom/README.md) · [AFL vulnerability gallery](galleries/12-ambiguity-front-loading-vulnerability/README.md)
+
+The page index is authoritative for complete visual coverage; original extracted images are provided in addition for direct high-quality figure viewing. Gallery manifests record every image and page. Rebuild the collection with `python scripts/build_galleries.py` using Poppler's `pdfinfo`, `pdfimages`, `pdftotext`, and `pdftoppm` tools.
+
 ## Complete paper index
 
 | # | Paper | Date | Scope and source |
@@ -64,4 +77,4 @@ Historical responsible-disclosure PDFs may contain live-system details. They are
 
 ## Integrity and rights
 
-`SHA256SUMS` identifies every PDF and source archive in this collection. No blanket Creative Commons license is applied to the collection by this README; individual papers and canonical source repositories retain their stated rights, notices, and licenses.
+`SHA256SUMS` identifies every PDF and source archive in this collection; `galleries/SHA256SUMS` identifies the visual indexes, extracted figures, and rendered pages. No blanket Creative Commons license is applied to the collection by this README; individual papers and canonical source repositories retain their stated rights, notices, and licenses.

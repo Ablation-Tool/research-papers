@@ -2,6 +2,10 @@
 
 This section preserves the broader Zoe research program that extends beyond the standalone PDF papers: Dorothy and Neurogarden, CERN evidence and virtual workbenches, native cognitive and creative instruments, source-linked reviews, examples, and visual assets.
 
+## Zoe — The Research Universe
+
+The [35-page illustrated book](../papers/18-zoe-research-universe.pdf) presents the complete system as one coherent work: metacognition, autonomy, event-causal perception, semantic artifact analysis, Dorothy brain-cancer research and neural simulation, mobile vision, reverse engineering, security, and the complete visual research archive. [LaTeX source](../sources/zoe-research-universe.tex) · [Source and visual archive](../archives/zoe-research-universe.tar.gz) · [Gallery](../galleries/18-zoe-research-universe/README.md).
+
 ## Dedicated research areas
 
 - **[Dorothy and Neurogarden](dorothy/README.md)** — Allen Mouse CCFv3 geometry, ontology Rings, Jenga and Stack layouts, source-linked scientific review, synthetic numerical benches, corpus evidence, and strict preclinical/clinical boundaries.

@@ -31,6 +31,7 @@ TITLES = {
     '15-zoe-visual-guide-collection': 'Zoe Visual Guide Collection',
     '16-zoe-practice-navigator': 'Zoe Practice Navigator',
     '17-zoe-capability-prospectus': 'Zoe Capability Prospectus',
+    '18-zoe-research-universe': 'Zoe — The Research Universe',
 }
 
 

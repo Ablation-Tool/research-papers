@@ -23,6 +23,7 @@ Each paper has a dedicated visual index with original embedded images, captions 
 | Zoe Visual Guide Collection | 9 | 21 | [Open gallery](15-zoe-visual-guide-collection/README.md) |
 | Zoe Practice Navigator | 5 | 0 | [Open gallery](16-zoe-practice-navigator/README.md) |
 | Zoe Capability Prospectus | 18 | 6 | [Open gallery](17-zoe-capability-prospectus/README.md) |
+| Zoe — The Research Universe | 35 | 12 | [Open gallery](18-zoe-research-universe/README.md) |
 
 ## Zoe research topic galleries
 

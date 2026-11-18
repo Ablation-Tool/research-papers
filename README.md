@@ -7,7 +7,8 @@ A curated public collection of the March–November 2026 Autonomy, Accessible Vo
 - **[Accessible Volume and the Architecture of Autonomy](papers/10-accessible-volume-architecture-of-autonomy.pdf)** — the **87-page unified research monograph**, integrating seven primary source papers, four supplemental cascade/AFL documents, and the extended Zoe equation work.
 - **[Zoe + Autonomy](papers/08-zoe-plus-autonomy-focused.pdf)** — the **15-page focused paper**, including the cascade visualization and explaining why accessible volume alone is insufficient and why the complete Zoe measurement–action loop is autonomous under its declared internal-domain predicate.
 - **[Zoe Autonomy: current system paper](papers/09-zoe-one-autonomy-system.pdf)** — the latest Zoe One architecture and evidence paper from the canonical Zoe-Autonomy repository, including developments after the unified monograph's source state.
-- **[Zoe Capability Prospectus](papers/17-zoe-capability-prospectus.pdf)** — the illustrated 18-page complete capability guide, including Dorothy brain-cancer research and neural simulation, metacognition, event-causal perception, semantic artifact analysis, mobile vision, reverse engineering, and security.
+- **[Zoe — The Research Universe](papers/18-zoe-research-universe.pdf)** — the 35-page illustrated book covering the complete system: metacognition, autonomy, event-causal perception, semantic artifacts, Dorothy brain-cancer research and neural simulation, mobile vision, reverse engineering, security, and the complete visual research archive.
+- **[Zoe Capability Prospectus](papers/17-zoe-capability-prospectus.pdf)** — the illustrated 18-page companion summary, including Dorothy brain-cancer research and neural simulation, metacognition, event-causal perception, semantic artifact analysis, mobile vision, reverse engineering, and security.
 
 ## Visual galleries
 
@@ -15,9 +16,9 @@ A curated public collection of the March–November 2026 Autonomy, Accessible Vo
 
 For the complete original artwork, animation, interface, branding, and diagram collection—with **359 detailed per-image explanation pages**—visit the dedicated **[Zoe Visual Archive](https://github.com/Ablation-Tool/zoe-visual-archive)**.
 
-- **17 paper galleries**
-- **78 original embedded figures** with captions and PDF page numbers where recoverable
-- **286 complete page renders** at 144 dpi, covering vector diagrams, flowcharts, equations, screenshots, and mixed-content pages
+- **18 paper galleries**
+- **90 original embedded figures** with captions and PDF page numbers where recoverable
+- **321 complete page renders** at 144 dpi, covering vector diagrams, flowcharts, equations, screenshots, and mixed-content pages
 - Click any figure or page to open its full-resolution file
 
 Featured indexes: [Unified monograph gallery](galleries/10-accessible-volume-architecture-of-autonomy/README.md) · [Focused Zoe + Autonomy gallery](galleries/08-zoe-plus-autonomy-focused/README.md) · [Constraint Is Freedom gallery](galleries/03-constraint-is-freedom/README.md) · [AFL vulnerability gallery](galleries/12-ambiguity-front-loading-vulnerability/README.md)
@@ -55,6 +56,7 @@ The library preserves Neurogarden's current v62 corpus index, all 130 review rec
 | 15 | [Zoe Visual Guide Collection](papers/15-zoe-visual-guide-collection.pdf) | November 2026 | Nine-page visual edition of the Zoe native guides. [Browsable source](sources/zoe-visual-guides/) · [Gallery](galleries/15-zoe-visual-guide-collection/README.md) |
 | 16 | [Zoe Practice Navigator](papers/16-zoe-practice-navigator.pdf) | November 2026 | Five-page visual practice navigator for the Zoe research environment. [Gallery](galleries/16-zoe-practice-navigator/README.md) |
 | 17 | [Zoe Capability Prospectus](papers/17-zoe-capability-prospectus.pdf) | November 2026 | Illustrated 18-page guide to metacognition, autonomy, event-causal perception, semantic artifacts, Dorothy brain-cancer research and neural simulation, mobile vision, reverse engineering, security, and the complete component directory. [LaTeX](sources/zoe-capability-prospectus.tex) · [Gallery](galleries/17-zoe-capability-prospectus/README.md) |
+| 18 | [Zoe — The Research Universe](papers/18-zoe-research-universe.pdf) | November 2026 | The 35-page illustrated book: metacognition, autonomy, event-causal perception, semantic artifacts, Dorothy brain-cancer research and neural simulation, mobile vision, reverse engineering, security, and the complete visual research archive. [LaTeX](sources/zoe-research-universe.tex) · [Gallery](galleries/18-zoe-research-universe/README.md) |
 
 Supplemental papers 11–14 preserve the original historical documents and are also substantively integrated into the 87-page monograph. The binary cascade visualization appears in both the monograph and the focused Zoe + Autonomy paper. The original [Autoregressive Compliance Cascade subsection](sources/cascade-subsection.txt) is retained as a text research source. Historical proposals, responsible-disclosure labels, and contact details remain part of their original documents; the current primary contact for the collection is `nicholas@nuclide-research.com`.
 
@@ -66,6 +68,7 @@ The `archives/` directory contains clean, independently rebuilt arXiv source pac
 - [Focused Zoe + Autonomy source and evidence](archives/zoe-plus-autonomy-arxiv.tar.gz)
 - [Unified 87-page monograph source, figures, and cascade subsection](archives/unified-autonomy-arxiv.tar.gz)
 - [Illustrated Zoe Capability Prospectus source and image assets](archives/zoe-capability-prospectus.tar.gz)
+- [Zoe — The Research Universe book source and visual assets](archives/zoe-research-universe.tar.gz)
 
 The unified source is also browsable under [`sources/unified/`](sources/unified/main.tex). From that directory, build with three pdfLaTeX passes:
 

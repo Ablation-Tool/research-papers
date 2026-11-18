@@ -30,6 +30,7 @@ TITLES = {
     '14-verification-exploitation-asymmetry': 'Verification–Exploitation Asymmetry in Autoregressive Systems',
     '15-zoe-visual-guide-collection': 'Zoe Visual Guide Collection',
     '16-zoe-practice-navigator': 'Zoe Practice Navigator',
+    '17-zoe-capability-prospectus': 'Zoe Capability Prospectus',
 }
 
 

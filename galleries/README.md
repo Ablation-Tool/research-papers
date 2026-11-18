@@ -15,13 +15,14 @@ Each paper has a dedicated visual index with original embedded images, captions 
 | Zoe for Everyone | 7 | 3 | [Open gallery](07-zoe-for-everyone/README.md) |
 | Zoe + Autonomy: The Complete Measurement–Action Equation | 15 | 0 | [Open gallery](08-zoe-plus-autonomy-focused/README.md) |
 | Zoe Autonomy: Current System Paper | 15 | 0 | [Open gallery](09-zoe-one-autonomy-system/README.md) |
-| Accessible Volume and the Architecture of Autonomy | 86 | 30 | [Open gallery](10-accessible-volume-architecture-of-autonomy/README.md) |
+| Accessible Volume and the Architecture of Autonomy | 87 | 30 | [Open gallery](10-accessible-volume-architecture-of-autonomy/README.md) |
 | AFL Defuser: Proposed Patch | 3 | 0 | [Open gallery](11-afl-defuser-proposed-patch/README.md) |
 | Ambiguity Front-Loading in Autoregressive Language Models | 15 | 0 | [Open gallery](12-ambiguity-front-loading-vulnerability/README.md) |
 | Constraint Is Freedom — Introduction Draft | 8 | 0 | [Open gallery](13-constraint-is-freedom-introduction-draft/README.md) |
 | Verification–Exploitation Asymmetry in Autoregressive Systems | 20 | 0 | [Open gallery](14-verification-exploitation-asymmetry/README.md) |
 | Zoe Visual Guide Collection | 9 | 21 | [Open gallery](15-zoe-visual-guide-collection/README.md) |
 | Zoe Practice Navigator | 5 | 0 | [Open gallery](16-zoe-practice-navigator/README.md) |
+| Zoe Capability Prospectus | 18 | 6 | [Open gallery](17-zoe-capability-prospectus/README.md) |
 
 ## Zoe research topic galleries
 

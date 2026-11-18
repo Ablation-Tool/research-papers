@@ -41,6 +41,12 @@ Additional verification: [unified Zoe verification](evidence/unified/verificatio
 
 Visual-guide source is preserved under [`sources/zoe-visual-guides/`](../sources/zoe-visual-guides/).
 
+## Dorothy neural simulation and the capability prospectus
+
+The [illustrated Zoe Capability Prospectus](../papers/17-zoe-capability-prospectus.pdf) presents the complete system in 18 pages: metacognition, autonomy, event-causal perception, semantic artifact analysis, Dorothy brain-cancer research and neural simulation, mobile vision, reverse engineering, security, and the complete component directory. [LaTeX source](../sources/zoe-capability-prospectus.tex) · [Source and image archive](../archives/zoe-capability-prospectus.tar.gz) · [Gallery](../galleries/17-zoe-capability-prospectus/README.md).
+
+Dorothy's neural simulation world includes DFT band powers, delay embedding, Lyapunov estimation, Higuchi dimension, Shannon entropy, synthetic point-spread convolution and recovery, bounded SPD matrix geometry, radial Pennes conduction/perfusion, neutrosophic membership similarity, exact integer arithmetic, and fixed synthetic radiobiology models. The [neural implementation](https://github.com/Ablation-Tool/zoe/blob/main/components/agent-logging-system/agent_logging_system/neurogarden_neural.py), [generative world](https://github.com/Ablation-Tool/zoe/blob/main/components/agent-logging-system/agent_logging_system/neurogarden_world.py), and [advanced numerical models](https://github.com/Ablation-Tool/zoe/blob/main/components/agent-logging-system/agent_logging_system/neurogarden_advanced.py) are teaching and research mechanisms, not a whole brain, patient simulation, diagnosis, treatment, or clinical authority.
+
 ## Current measured reflection and working memory
 
 The [measured self-reflection evidence](https://github.com/Ablation-Tool/Zoe-Autonomy/tree/main/evidence/self-reflection) records goal-constrained model selection, residual-likelihood updates, held-out validation, and reversible adoption. The [soroban and ecological working-memory model](https://github.com/Ablation-Tool/graphics-environment-manager/blob/main/COGNITION.md#soroban-working-memory-and-ecological-feedback) adds exact earth/heaven bead arithmetic, observation and adoption counters, and a declared resource-feedback experiment. These are measured software mechanisms, not claims of biological calibration or consciousness.

@@ -366,7 +366,7 @@ Thirty-four tests cover strict thresholds, KL divergence and support mismatch, e
 The saved canonical profile digest is
 
 \begin{center}
-\texttt{5908e43d66207ec12e20e6717cdd2f12df2aa4666948d9713d0df09d3193515f}.
+\texttt{f6a76964fae19ee5878ebdc928b4710999b2389892d67dab509c0dd7cfc8cfb3}.
 \end{center}
 
 Fresh end-to-end recomputation reproduces the document exactly. Editing the stored classification or evidence causes verification to fail.
@@ -647,6 +647,25 @@ zoe-autonomy verify-event-evaluation event-camera-evaluation.json
 \embedfile{src/zoe_autonomy/event_uncertainty.py}
 \embedfile{src/zoe_autonomy/event_autonomy.py}
 \embedfile{src/zoe_autonomy/event_evaluation.py}
+
+\section{Semantic artifact analysis with Ablation}
+Version 0.8.1 composes Ablation's behavioral retrieval and reverse-engineering tools with Zoe's Cognitive Field, event memory, guard, and evidence chain. `BinaryContext` discovers functions, normalized opcode categories and BGE embeddings rank behavioral candidates, and Capstone independently checks direct calls and tail jumps in the `.text` section. PLT entries are excluded from the retrieval scope. The knowledge graph supplies architecture-specific history, and a finding registry preserves candidate unsafe behavior as unconfirmed.
+
+The measured fixture contains \texttt{copy\_payload}, \texttt{parse\_header}, and \texttt{safe\_length}, compiled with \texttt{gcc -O0 -g} and \texttt{gcc -O2 -s}. No vulnerable input or target function is executed. Unstripped retrieval ranks \texttt{copy\_payload} first; stripped retrieval initially exposes a PLT false positive. Corrected scope filtering and whitening leave a small corpus with nearly zero scores and \texttt{safe\_length} first, which is explicitly recorded as \texttt{limited\_support=true}, not accepted as proof.
+
+Direct disassembly finds \texttt{func\_11c0} performing a tail jump to \texttt{strcpy@plt}. Zoe selects \texttt{semantic-inspect} with valid guard and event-memory chains and zero external actions. This demonstrates retrieval, direct call evidence, memory, and guarded reasoning for executable artifacts. It does not establish general world semantics, natural-language understanding, a vulnerability without bounds and reachability analysis, or AGI.
+
+The canonical Ablation integration also fixes \texttt{live\_addrs} filtering when \texttt{binary\_id} is set and applies the same fitted whitening transform to corpus and query vectors with cached parameters. All 64 Zoe-Autonomy tests pass, including the real stripped-binary fixture and saved-report tamper rejection.
+
+\begin{lstlisting}
+zoe-autonomy semantic-evaluate --artifact /path/to/binary \
+  --state /path/to/semantic-state --output semantic-artifact.json
+zoe-autonomy verify-semantic-evaluation semantic-artifact.json
+\end{lstlisting}
+
+\embedfile{SEMANTIC-ARTIFACTS.md}
+\embedfile{evidence/semantic-artifacts/evaluation.json}
+\embedfile{src/zoe_autonomy/semantic_artifacts.py}
 
 \section{Embedded evidence}
 The PDF embeds the canonical profile, fresh verification, paper source, and integration modules. The complete JSON contains all counterfactual interventions, ranked proposals, goal records, before/after states, guard results, source hashes, and event-chain hashes.

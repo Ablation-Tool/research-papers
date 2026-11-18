@@ -22,6 +22,15 @@ The program includes Needleman–Wunsch alignment, imaging sampling and Gaussian
 
 Negative and contradictory source findings remain visible: missing patient-level splits, incorrect specificity denominators, inconsistent MRI counts, swapped retinal plots, incomplete optimizer definitions, missing raw predictions, and unverified secondary therapeutic claims. Bounded arithmetic audits do not evaluate the original models.
 
+## Neural simulation and generative research world
+
+Dorothy also includes executable teaching and simulation mechanisms, not just atlas geometry and source reviews. DFT band powers, delay embedding, Lyapunov estimation, Higuchi dimension, and Shannon entropy operate on synthetic neural signals. The bounded generative world holds review-required experiments across biology, neuroscience, physics, CERN, GEM, and community research, with measurement and human review kept separate from clinical action. Additional models include synthetic point-spread convolution and recovery, bounded SPD matrix geometry, radial Pennes conduction/perfusion, neutrosophic membership similarity, exact integer arithmetic, and fixed synthetic radiobiology examples. These mechanisms do not form a whole brain, patient simulation, disease classifier, treatment plan, or clinical authority.
+
+- [Neural-signal implementation](https://github.com/Ablation-Tool/zoe/blob/main/components/agent-logging-system/agent_logging_system/neurogarden_neural.py)
+- [Generative world](https://github.com/Ablation-Tool/zoe/blob/main/components/agent-logging-system/agent_logging_system/neurogarden_world.py)
+- [Advanced numerical models](https://github.com/Ablation-Tool/zoe/blob/main/components/agent-logging-system/agent_logging_system/neurogarden_advanced.py)
+- [Illustrated Zoe Capability Prospectus](../papers/17-zoe-capability-prospectus.pdf)
+
 ## Documents and evidence
 
 - [Complete Neurogarden guide](../docs/neurogarden/NEUROGARDEN.md)

@@ -22,6 +22,36 @@ P_k=(I-K_kH_k)P_k^-(I-K_kH_k)^T+K_kR_kK_k^T.
 \end{equation}
 Dimensions and covariance matrices are checked and singular innovation covariances rejected. Filtering does not validate the supplied dynamics, establish learning, or authorize an action. The EKF is not assumed to be a model of thought or token distributions.
 
+\section{Shared visual perception}
+The canonical autonomy report now includes the multiscale saliency field from the canonical GEM, with a locked source revision and source hash. Following Itti, Koch, and Niebur~\cite{itti1998}, nine Gaussian scales yield six intensity, twelve color-opponency, and twenty-four orientation maps. For a nonnegative feature map $X$ with global maximum $M>0$ and mean other strict eight-neighbor local maximum $\bar m$,
+\begin{equation}
+N(X)=\frac{X}{M}\left(1-\frac{\bar m}{M}\right)^2.
+\end{equation}
+The three normalized conspicuity maps are averaged into a saliency map. Winner selection and inhibition of return produce an attention scanpath. Exact four-neighbor Dijkstra connects selected foci over the unchanged pre-inhibition map with edge cost $L/\max(S,0.001)$, where $L$ is Euclidean pixel distance. The original cyclic graph is retained rather than replaced by the predecessor tree.
+
+Every default report uses a documented synthetic RGB pop-out. The canonical command also accepts real image files with \texttt{--image} and one to eight foci with \texttt{--foci}. Source and image hashes, original and processed dimensions, feature-map metadata, and scanpath coordinates are preserved. Replay recomputes the complete deterministic field. The real Vivotek example produces four foci; its image is not redistributed. No live camera is accessed. All 44 repository tests and all six host replays verify the implementation.
+
+\section{Measured self-reflection}
+The opt-in reflection experiment evaluates model choices from actual stereo prediction errors. For model $m$, residuals $r_{m,t,i}$ on predicted views supply an explicitly declared Gaussian log-likelihood,
+\begin{equation}
+\ell_{m,t}=-N_t\ln(\sigma\sqrt{2\pi})-\sum_i\frac{r_{m,t,i}^2}{2\sigma^2},
+\qquad \sigma=q/\sqrt{12},
+\end{equation}
+where $q$ is the disparity quantization in pixels. Log weights accumulate this evidence and are normalized across candidates. Candidate values derive from these weights rather than semantic gate labels. The authored goal constrains the candidate set before utility ranking, and adoption requires a lower RMSE on a separate 60-degree validation view. A failed validation retains the previous model; the checkpoint is reversible.
+
+The measured sequence preserves arithmetic, inspects and adopts precision, then reviews and retains precision. Training RMSE falls from 0.039720402 to 0.039394269 pixels, and validation RMSE from 0.039234586 to 0.039081672 pixels. The gain is small and fixture-specific. Posterior values belong to the declared residual approximation, not emotional confidence or universal correctness. The integrated reflection event is identical to the standalone first event and remains in the existing guard chain. All 44 repository tests pass. The default path preserves the earlier experiment except source hashes.
+
+For calibration, the fixed-candidate three-variable projection measures $\Phi=0$ under PyPhi 1.2.0~\cite{mayner2018pyphi}. Canonical AND motifs measure 0.25, 0.15625, and 0.117188 at three, four, and five nodes. These are controls, not Zoe's $\Phi$ or evidence of self-reflection. The reviewed external patch reproduces its on-report but has no real belief update and no implemented \texttt{--substrate} CLI flag. Its five-element searches are sampled, not exhaustive, so they do not prove an upper bound on all architectures.
+
+\section{Soroban and ecological working memory}
+The reflection state includes a physical-rule soroban: each rod encodes a digit as
+\begin{equation}
+d_i=\operatorname{lower}_i+5\operatorname{upper}_i,
+\end{equation}
+where lower counts active earth beads and upper is the active heaven bead. Addition and subtraction use direct bead transitions, carries, and borrows. Multiplication uses place-shifted addition, and division uses repeated subtraction with at most nine subtractions per quotient digit. Whole-integer decoding does not replace those transitions. Checkpoints restore the prior bead configuration and preserve both the original and inverse history.
+
+The replayed reflection sequence represents 4, 8, and 12 observations and 0, 1, and 1 adoptions with these exact bead states. The counters remain separate from likelihood weights. The ecological experiment encodes light, energy, moisture, nutrients, obstacles, position, gain, cost, and prediction error in the same representation. Action changes later position and observed energy, while gain increases, decreases, or remains unchanged according to measured prediction error. This is a bounded, declared resource-feedback model, not a calibrated plant, a fungal network, or a consciousness measurement.
+
 \section{Second eye: disparity, depth, and focus}
 The synthetic stereo instrument creates two parallel pinhole views with known baseline $B$, focal length $f$, sensor width $s$, and image width $W$. With $f_{px}=fW/s$, horizontal disparity $d$ and depth $Z$ satisfy
 \begin{equation}

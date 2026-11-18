@@ -41,6 +41,10 @@ Additional verification: [unified Zoe verification](evidence/unified/verificatio
 
 Visual-guide source is preserved under [`sources/zoe-visual-guides/`](../sources/zoe-visual-guides/).
 
+## Current measured reflection and working memory
+
+The [measured self-reflection evidence](https://github.com/Ablation-Tool/Zoe-Autonomy/tree/main/evidence/self-reflection) records goal-constrained model selection, residual-likelihood updates, held-out validation, and reversible adoption. The [soroban and ecological working-memory model](https://github.com/Ablation-Tool/graphics-environment-manager/blob/main/COGNITION.md#soroban-working-memory-and-ecological-feedback) adds exact earth/heaven bead arithmetic, observation and adoption counters, and a declared resource-feedback experiment. These are measured software mechanisms, not claims of biological calibration or consciousness.
+
 ## Canonical source and rights
 
 The canonical implementation and current research state remain at **https://github.com/Ablation-Tool/zoe**. This collection preserves research documents and selected current evidence without absorbing external CERN corpora, raw waveforms, proprietary HDL, model weights, third-party books, or patient data.

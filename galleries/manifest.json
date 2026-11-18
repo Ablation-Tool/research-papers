@@ -386,7 +386,7 @@
     {
       "paper": "papers/09-zoe-one-autonomy-system.pdf",
       "title": "Zoe Autonomy: Current System Paper",
-      "pdf_pages": 12,
+      "pdf_pages": 14,
       "extracted_images": [],
       "page_renders": [
         "pages/page-001.jpg",
@@ -400,13 +400,15 @@
         "pages/page-009.jpg",
         "pages/page-010.jpg",
         "pages/page-011.jpg",
-        "pages/page-012.jpg"
+        "pages/page-012.jpg",
+        "pages/page-013.jpg",
+        "pages/page-014.jpg"
       ]
     },
     {
       "paper": "papers/10-accessible-volume-architecture-of-autonomy.pdf",
       "title": "Accessible Volume and the Architecture of Autonomy",
-      "pdf_pages": 84,
+      "pdf_pages": 85,
       "extracted_images": [
         {
           "pdf_page": 22,
@@ -599,95 +601,95 @@
           ]
         },
         {
-          "pdf_page": 60,
+          "pdf_page": 61,
           "number": 26,
           "width": 1920,
           "height": 1080,
-          "file": "figures/figure-026-page-060.png",
+          "file": "figures/figure-026-page-061.png",
           "captions": [
             "Figure 19: Zoe’s synthetic second eye. Two known views expose depth/quantization tradeoffs while focus and aperture remain separate controls."
           ]
         },
         {
-          "pdf_page": 61,
+          "pdf_page": 62,
           "number": 27,
           "width": 1920,
           "height": 1080,
-          "file": "figures/figure-027-page-061.png",
+          "file": "figures/figure-027-page-062.png",
           "captions": [
             "Figure 20: Projection-iris study: a synthetic central-slice visualization with separately measured finite-grid error."
           ]
         },
         {
-          "pdf_page": 61,
+          "pdf_page": 63,
           "number": 28,
           "width": 1920,
           "height": 1080,
-          "file": "figures/figure-028-page-061.png",
+          "file": "figures/figure-028-page-063.png",
           "captions": [
             "Figure 21: Human and Zoe brain dialogue. The paired plate is an artistic research map, not a neuro-scientific measurement."
           ]
         },
         {
-          "pdf_page": 64,
+          "pdf_page": 65,
           "number": 29,
           "width": 1400,
           "height": 1064,
-          "file": "figures/figure-029-page-064.png",
+          "file": "figures/figure-029-page-065.png",
           "captions": [
             "Figure 22: Zoe Pentacube: exact home tilings and reversible sticker permutations with replayable local state."
           ]
         },
         {
-          "pdf_page": 66,
+          "pdf_page": 67,
           "number": 30,
           "width": 1400,
           "height": 1064,
-          "file": "figures/figure-030-page-066.png",
+          "file": "figures/figure-030-page-067.png",
           "captions": [
             "Figure 23: Zoe Internal Clock. Biological references motivate explicit toy hypotheses; they do not turn the oscillator into a fitted organism model."
           ]
         },
         {
-          "pdf_page": 68,
+          "pdf_page": 69,
           "number": 31,
           "width": 1200,
           "height": 780,
-          "file": "figures/figure-031-page-068.png",
+          "file": "figures/figure-031-page-069.png",
           "captions": [
             "Figure 24: Native Procrustes playground with draggable landmarks and live transform and residual inspection."
           ]
         },
         {
-          "pdf_page": 69,
+          "pdf_page": 70,
           "number": 32,
           "width": 2400,
           "height": 1800,
-          "file": "figures/figure-032-page-069.png",
+          "file": "figures/figure-032-page-070.png",
           "captions": []
         },
         {
-          "pdf_page": 69,
+          "pdf_page": 70,
           "number": 33,
           "width": 1600,
           "height": 1200,
-          "file": "figures/figure-033-page-069.png",
+          "file": "figures/figure-033-page-070.png",
           "captions": []
         },
         {
-          "pdf_page": 69,
+          "pdf_page": 70,
           "number": 34,
           "width": 1600,
           "height": 1200,
-          "file": "figures/figure-034-page-069.png",
+          "file": "figures/figure-034-page-070.png",
           "captions": []
         },
         {
-          "pdf_page": 71,
+          "pdf_page": 72,
           "number": 35,
           "width": 248,
           "height": 280,
-          "file": "figures/figure-035-page-071.png",
+          "file": "figures/figure-035-page-072.png",
           "captions": [
             "Figure 27: Neurogarden’s synthetic point-spread and projection bench. The image is an educational numerical scene, not anatomical or clinical data."
           ]
@@ -777,7 +779,8 @@
         "pages/page-081.jpg",
         "pages/page-082.jpg",
         "pages/page-083.jpg",
-        "pages/page-084.jpg"
+        "pages/page-084.jpg",
+        "pages/page-085.jpg"
       ]
     },
     {

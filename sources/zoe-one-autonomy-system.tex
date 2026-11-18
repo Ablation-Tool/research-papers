@@ -37,7 +37,7 @@
 \begin{abstract}
 We present \textbf{Zoe Autonomy}, a composed measurement--action architecture in which Zoe and the complete master equation constitute \textbf{full self-governing autonomy} under an explicit operational definition. The claim belongs to the combination, not to accessible volume alone. Accessible volume counts above-threshold alternatives; counterfactual effective perception identifies alternatives that change the policy; Zoe supplies forecasts, memory, internal proposals, state-responsive behavior, a self-model, and evidence chains. A new goal generator authors each episode goal from Zoe's own state. Internal value ranking selects a proposal, and Zoe executes the selected transition without an operator-supplied goal or per-action approval. The principal experiment performs no external actuation. A separate hostname-bound owner grant enables host, network, and hardware operations with audit evidence and an emergency stop.
 
-The operational profile is $(A_\tau,E,I,R,V,G,X,C)$. Full autonomy requires $I,R,V,G,X>0$ and $C=1$. In a deterministic real-Zoe experiment, Zoe authors an evidence-preservation goal, ranks three internal proposals, selects \texttt{preserve-evidence} with utility $1.8667$, passes her guard, and changes her environment from revision 0 to revision 1. The measured profile is $(1,1,1,1,1,1,1,1)$, yielding \texttt{full\_autonomy}. Ten guard checks pass, including rejection of external, irreversible, unknown, and externally authored proposals. Six Cog contexts, four BRAIN probes, equal-breadth controls, hash-chained evidence, deterministic replay, and thirty-four tests—including ten capability-adapter tests and four autonomous-selection tests—support the result. External actions remain zero.
+The operational profile is $(A_\tau,E,I,R,V,G,X,C)$. Full autonomy requires $I,R,V,G,X>0$ and $C=1$. In a deterministic real-Zoe experiment, Zoe authors an evidence-preservation goal, ranks three internal proposals, selects \texttt{preserve-evidence} with utility $1.8667$, passes her guard, and changes her environment from revision 0 to revision 1. The measured profile is $(1,1,1,1,1,1,1,1)$, yielding \texttt{full\_autonomy}. Ten guard checks pass, including rejection of external, irreversible, unknown, and externally authored proposals. Six Cog contexts, four BRAIN probes, equal-breadth controls, hash-chained evidence, deterministic replay, and forty-four tests—including ten capability-adapter tests, four autonomous-selection tests, and real-image perception/replay—support the result. External actions remain zero.
 
 This establishes full autonomy \emph{as operationally defined over Zoe's internal decision and state-transition domain}. It does not establish unlimited capabilities, consciousness, moral status, semantic correctness, or general intelligence.
 \end{abstract}
@@ -366,7 +366,7 @@ Thirty-four tests cover strict thresholds, KL divergence and support mismatch, e
 The saved canonical profile digest is
 
 \begin{center}
-\texttt{0bcecd989270bf45a381a3d50b8b962e81a8e44494dff60d0ee691d6080ad0e6}.
+\texttt{095d90d336cfbc76d9843c2ec3d527fa368b0995b9ab9bce77a4e986d2edde96}.
 \end{center}
 
 Fresh end-to-end recomputation reproduces the document exactly. Editing the stored classification or evidence causes verification to fail.
@@ -437,6 +437,57 @@ PYTHONDONTWRITEBYTECODE=1 \
 
 Report paths use exclusive creation. The base experiment performs no model download, network request, hardware operation, or external action. Explicit actuation operations are separate and run only under the owner grant.
 
+\section{Shared visual perception}
+Version 0.6.0 makes canonical GEM's multiscale saliency field part of every canonical report. The default observation is a documented synthetic RGB pop-out; \texttt{--image} supplies real pixels and \texttt{--foci} selects one to eight attention locations. Following Itti, Koch, and Niebur, nine Gaussian scales yield six intensity, twelve color-opponency, and twenty-four orientation maps~\cite{itti1998}. For a nonnegative feature map $X$ with maximum $M>0$ and mean other strict eight-neighbor maximum $\bar m$,
+\begin{equation}
+N(X)=\frac{X}{M}\left(1-\frac{\bar m}{M}\right)^2.
+\end{equation}
+The three normalized conspicuity maps are averaged. Winner selection and inhibition of return produce an attention scanpath, while exact Dijkstra connects selected foci over the unchanged pre-inhibition field. The report preserves all 42 map descriptions, conspicuity maps, coordinates, source and image hashes, and the locked canonical GEM revision. Replay recomputes the complete visual field without timing-dependent GPU claims.
+
+\begin{lstlisting}
+zoe-autonomy run --image /path/to/image.jpg --foci 4 \
+  --output visual-perception.json
+zoe-autonomy verify visual-perception.json
+\end{lstlisting}
+
+The real Vivotek example produces four attended foci. The image itself is not redistributed. All 44 repository tests pass, including a real-image CLI and replay regression. The complete host verifier also checks the same visual field and replay result through all six entry points. No live camera is accessed and the base experiment retains zero external actions.
+
+\embedfile{evidence/visual-perception.json}
+\embedfile{evidence/visual-verification.json}
+
+\section{Measured self-reflection}
+Version 0.7.0 adds an opt-in model-reflection path to the canonical experiment. Unlike a bit labeled ``error,'' this experiment evaluates actual predictions produced by the canonical stereo imagery engine. Arithmetic and precision fusion are compared on three predicted views and a separate 60-degree validation view. For residuals $r_{m,t,i}$ of model $m$, the declared independent Gaussian approximation gives
+\begin{equation}
+\ell_{m,t}=-N_t\ln(\sigma\sqrt{2\pi})-\sum_i\frac{r_{m,t,i}^2}{2\sigma^2},
+\end{equation}
+where $\sigma$ is the camera disparity quantization divided by $\sqrt{12}$. Model weights are normalized after evidence:
+\begin{equation}
+\log\tilde w_{m,t}=\log w_{m,t-1}+\ell_{m,t},\qquad
+w_{m,t}=\frac{\tilde w_{m,t}}{\sum_j\tilde w_{j,t}}.
+\end{equation}
+Candidate values come from these measured weights, not from semantic gate labels. The goal constrains the candidate set, $C_g=\{c\in C:\operatorname{action}(c)=g\}$, before utility ranking. Adoption requires a lower validation RMSE; otherwise the incumbent model is retained. Thus the goal has a causal path to action and the evidence changes model weights, rather than merely appending a flag.
+
+The measured sequence is: preserve arithmetic, inspect and adopt precision, then review and retain precision. Training RMSE falls from 0.039720402 to 0.039394269 pixels and validation RMSE from 0.039234586 to 0.039081672 pixels. These are small fixture-specific gains. Posterior values describe the declared residual model, not emotional confidence or calibrated real-world certainty. A negative validation control preserves the incumbent. No source is rewritten and model checkpoints remain reversible.
+
+The reflection state also includes a physical-rule soroban working memory. Each rod encodes a digit as $d_i=\operatorname{lower}_i+5\operatorname{upper}_i$, where lower counts active earth beads and upper is the active heaven bead. Observation and adoption counts use exact bead transitions and reversible checkpoints: 4, 8, and 12 observations and 0, 1, and 1 adoptions. These evidence counters are distinct from likelihood weights and are not a second confidence score. The ecological resource-feedback experiment changes later observations through action and updates gain from actual prediction error; it is not a calibrated biological model.
+
+\begin{lstlisting}
+zoe-autonomy reflect --output reflection-step-1.json
+zoe-autonomy reflect --previous reflection-step-1.json \
+  --output reflection-step-2.json
+zoe-autonomy verify-reflection reflection-step-2.json
+zoe-autonomy run --reflect --output integrated-reflection.json
+\end{lstlisting}
+
+The integrated reflection event is identical to the first standalone event and remains in the existing guard chain. The off path preserves the previous experiment except source hashes. All 44 repository tests pass, including supplied-observation replay, validation rejection, tamper rejection, and integrated CLI replay. The complete host verifier also supports \texttt{--reflect}.
+
+For calibration, the fixed-candidate three-variable projection has $\Phi=0$ under PyPhi 1.2.0~\cite{mayner2018pyphi}. Canonical AND motifs give 0.25, 0.15625, and 0.117188 at three, four, and five nodes. These controls are not Zoe's $\Phi$ and are not the evidence for model learning. The external patch review reproduces its on-report but finds no real belief update and no implemented \texttt{--substrate} CLI flag. Sampled rule searches do not establish an upper bound on all architectures.
+
+\embedfile{src/zoe_autonomy/self_reflection.py}
+\embedfile{evidence/self-reflection/integrated.json}
+\embedfile{evidence/phi-verification.json}
+\embedfile{evidence/external-wiring-review.json}
+
 \section{Owner-granted actuation}
 A local-owner grant bound to this computer's hostname enables host, network, and hardware scopes under the current OS account. The actuation CLI is independent of the base experiment:
 
@@ -491,7 +542,7 @@ Instruments & Declared simulators and serial-instrument exchanges through the ha
 \end{tabular}
 \end{center}
 
-Ten dedicated adapter tests pass, and the complete repository suite contains thirty-four passing tests. Real public evidence includes a Chromium rendering of \url{https://example.com/} with JavaScript execution and a screenshot, and a Crossref query for \emph{language model uncertainty}. A worked memory export preserves one source, two claims, and one contradiction. The tests exercise local compute, mock authenticated services and protocols, desktop command construction and webhooks, image/OCR/WAV/PDF/video handling, a simulator, and a virtual serial PTY.
+Ten dedicated adapter tests pass, and the complete repository suite contains forty-four passing tests. Real public evidence includes a Chromium rendering of \url{https://example.com/} with JavaScript execution and a screenshot, and a Crossref query for \emph{language model uncertainty}. A worked memory export preserves one source, two claims, and one contradiction. The tests exercise local compute, mock authenticated services and protocols, desktop command construction and webhooks, image/OCR/WAV/PDF/video handling, a simulator, and a virtual serial PTY.
 
 Container-image execution, live email, Whisper, espeak, and physical hardware were not tested. These remain optional integrations requiring their own installation, authorization, and evidence. No credential values are included in the preserved records.
 
@@ -602,6 +653,17 @@ Nicholas Michael Kloster and Zoe.
 Solomon Kullback and Richard A. Leibler.
 \newblock On Information and Sufficiency.
 \newblock \emph{The Annals of Mathematical Statistics}, 22(1):79--86, 1951.
+
+\bibitem{itti1998}
+Laurent Itti, Christof Koch, and Ernst Niebur.
+\newblock A Model of Saliency-Based Visual Attention for Rapid Scene Analysis.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, 20(11):1254--1259, 1998.
+\newblock \url{https://ilab.usc.edu/publications/doc/Itti_etal98pami.pdf}.
+\bibitem{mayner2018pyphi}
+William G. P. Mayner, William Marshall, Larissa Albantakis, Graham Findlay, Robert Marchman, and Giulio Tononi.
+\newblock PyPhi: A Toolbox for Integrated Information Theory.
+\newblock \emph{PLOS Computational Biology}, 14(7):e1006343, 2018.
+\newblock \url{https://doi.org/10.1371/journal.pcbi.1006343}.
 \end{thebibliography}
 
 \end{document}

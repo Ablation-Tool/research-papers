@@ -2,7 +2,7 @@
 
 [Open the paper PDF](../../papers/10-accessible-volume-architecture-of-autonomy.pdf) · [All paper galleries](../README.md)
 
-- PDF pages: **85**
+- PDF pages: **86**
 - Original embedded raster images extracted: **30**
 - Complete page renders: **144 dpi JPEG**, clickable for full-resolution viewing
 
@@ -32,16 +32,16 @@ The extracted-image section preserves original embedded image data where availab
 | 18 | 48 | 1400×1120 | Embedded image; see the rendered page for full context. | [Open](figures/figure-023-page-048.png) |
 | 19 | 49 | 1400×1064 | Figure 17: Zoe Protocol Lab: recovered SPECS and AMAC protocol examples. No hardware, firmware, FPGA, or network operation is performed, and checksums are not authentication. | [Open](figures/figure-024-page-049.png) |
 | 20 | 50 | 1400×1064 | Figure 18: Zoe Patchbay: firmware inspection, hashing, signing, verification, and explicit acceptance boundaries. The board illustration is not a fabrication drawing and Cog output is not a command channel. | [Open](figures/figure-025-page-050.png) |
-| 21 | 61 | 1920×1080 | Figure 19: Zoe’s synthetic second eye. Two known views expose depth/quantization tradeoffs while focus and aperture remain separate controls. | [Open](figures/figure-026-page-061.png) |
-| 22 | 62 | 1920×1080 | Figure 20: Projection-iris study: a synthetic central-slice visualization with separately measured finite-grid error. | [Open](figures/figure-027-page-062.png) |
-| 23 | 63 | 1920×1080 | Figure 21: Human and Zoe brain dialogue. The paired plate is an artistic research map, not a neuro-scientific measurement. | [Open](figures/figure-028-page-063.png) |
-| 24 | 65 | 1400×1064 | Figure 22: Zoe Pentacube: exact home tilings and reversible sticker permutations with replayable local state. | [Open](figures/figure-029-page-065.png) |
-| 25 | 67 | 1400×1064 | Figure 23: Zoe Internal Clock. Biological references motivate explicit toy hypotheses; they do not turn the oscillator into a fitted organism model. | [Open](figures/figure-030-page-067.png) |
-| 26 | 69 | 1200×780 | Figure 24: Native Procrustes playground with draggable landmarks and live transform and residual inspection. | [Open](figures/figure-031-page-069.png) |
-| 27 | 70 | 2400×1800 | Embedded image; see the rendered page for full context. | [Open](figures/figure-032-page-070.png) |
-| 28 | 70 | 1600×1200 | Embedded image; see the rendered page for full context. | [Open](figures/figure-033-page-070.png) |
-| 29 | 70 | 1600×1200 | Embedded image; see the rendered page for full context. | [Open](figures/figure-034-page-070.png) |
-| 30 | 72 | 248×280 | Figure 27: Neurogarden’s synthetic point-spread and projection bench. The image is an educational numerical scene, not anatomical or clinical data. | [Open](figures/figure-035-page-072.png) |
+| 21 | 62 | 1920×1080 | Figure 19: Zoe’s synthetic second eye. Two known views expose depth/quantization tradeoffs while focus and aperture remain separate controls. | [Open](figures/figure-026-page-062.png) |
+| 22 | 63 | 1920×1080 | Figure 20: Projection-iris study: a synthetic central-slice visualization with separately measured finite-grid error. | [Open](figures/figure-027-page-063.png) |
+| 23 | 64 | 1920×1080 | Figure 21: Human and Zoe brain dialogue. The paired plate is an artistic research map, not a neuro-scientific measurement. | [Open](figures/figure-028-page-064.png) |
+| 24 | 66 | 1400×1064 | Figure 22: Zoe Pentacube: exact home tilings and reversible sticker permutations with replayable local state. | [Open](figures/figure-029-page-066.png) |
+| 25 | 68 | 1400×1064 | Figure 23: Zoe Internal Clock. Biological references motivate explicit toy hypotheses; they do not turn the oscillator into a fitted organism model. | [Open](figures/figure-030-page-068.png) |
+| 26 | 70 | 1200×780 | Figure 24: Native Procrustes playground with draggable landmarks and live transform and residual inspection. | [Open](figures/figure-031-page-070.png) |
+| 27 | 71 | 2400×1800 | Embedded image; see the rendered page for full context. | [Open](figures/figure-032-page-071.png) |
+| 28 | 71 | 1600×1200 | Embedded image; see the rendered page for full context. | [Open](figures/figure-033-page-071.png) |
+| 29 | 71 | 1600×1200 | Embedded image; see the rendered page for full context. | [Open](figures/figure-034-page-071.png) |
+| 30 | 73 | 248×280 | Figure 27: Neurogarden’s synthetic point-spread and projection bench. The image is an educational numerical scene, not anatomical or clinical data. | [Open](figures/figure-035-page-073.png) |
 
 ### Image 1 — PDF page 22
 
@@ -153,59 +153,59 @@ Figure 18: Zoe Patchbay: firmware inspection, hashing, signing, verification, an
 
 <a href="figures/figure-025-page-050.png"><img src="figures/figure-025-page-050.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 20, PDF page 50" style="max-width:100%;"></a>
 
-### Image 21 — PDF page 61
+### Image 21 — PDF page 62
 
 Figure 19: Zoe’s synthetic second eye. Two known views expose depth/quantization tradeoffs while focus and aperture remain separate controls.
 
-<a href="figures/figure-026-page-061.png"><img src="figures/figure-026-page-061.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 21, PDF page 61" style="max-width:100%;"></a>
+<a href="figures/figure-026-page-062.png"><img src="figures/figure-026-page-062.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 21, PDF page 62" style="max-width:100%;"></a>
 
-### Image 22 — PDF page 62
+### Image 22 — PDF page 63
 
 Figure 20: Projection-iris study: a synthetic central-slice visualization with separately measured finite-grid error.
 
-<a href="figures/figure-027-page-062.png"><img src="figures/figure-027-page-062.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 22, PDF page 62" style="max-width:100%;"></a>
+<a href="figures/figure-027-page-063.png"><img src="figures/figure-027-page-063.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 22, PDF page 63" style="max-width:100%;"></a>
 
-### Image 23 — PDF page 63
+### Image 23 — PDF page 64
 
 Figure 21: Human and Zoe brain dialogue. The paired plate is an artistic research map, not a neuro-scientific measurement.
 
-<a href="figures/figure-028-page-063.png"><img src="figures/figure-028-page-063.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 23, PDF page 63" style="max-width:100%;"></a>
+<a href="figures/figure-028-page-064.png"><img src="figures/figure-028-page-064.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 23, PDF page 64" style="max-width:100%;"></a>
 
-### Image 24 — PDF page 65
+### Image 24 — PDF page 66
 
 Figure 22: Zoe Pentacube: exact home tilings and reversible sticker permutations with replayable local state.
 
-<a href="figures/figure-029-page-065.png"><img src="figures/figure-029-page-065.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 24, PDF page 65" style="max-width:100%;"></a>
+<a href="figures/figure-029-page-066.png"><img src="figures/figure-029-page-066.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 24, PDF page 66" style="max-width:100%;"></a>
 
-### Image 25 — PDF page 67
+### Image 25 — PDF page 68
 
 Figure 23: Zoe Internal Clock. Biological references motivate explicit toy hypotheses; they do not turn the oscillator into a fitted organism model.
 
-<a href="figures/figure-030-page-067.png"><img src="figures/figure-030-page-067.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 25, PDF page 67" style="max-width:100%;"></a>
+<a href="figures/figure-030-page-068.png"><img src="figures/figure-030-page-068.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 25, PDF page 68" style="max-width:100%;"></a>
 
-### Image 26 — PDF page 69
+### Image 26 — PDF page 70
 
 Figure 24: Native Procrustes playground with draggable landmarks and live transform and residual inspection.
 
-<a href="figures/figure-031-page-069.png"><img src="figures/figure-031-page-069.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 26, PDF page 69" style="max-width:100%;"></a>
+<a href="figures/figure-031-page-070.png"><img src="figures/figure-031-page-070.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 26, PDF page 70" style="max-width:100%;"></a>
 
-### Image 27 — PDF page 70
+### Image 27 — PDF page 71
 
-<a href="figures/figure-032-page-070.png"><img src="figures/figure-032-page-070.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 27, PDF page 70" style="max-width:100%;"></a>
+<a href="figures/figure-032-page-071.png"><img src="figures/figure-032-page-071.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 27, PDF page 71" style="max-width:100%;"></a>
 
-### Image 28 — PDF page 70
+### Image 28 — PDF page 71
 
-<a href="figures/figure-033-page-070.png"><img src="figures/figure-033-page-070.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 28, PDF page 70" style="max-width:100%;"></a>
+<a href="figures/figure-033-page-071.png"><img src="figures/figure-033-page-071.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 28, PDF page 71" style="max-width:100%;"></a>
 
-### Image 29 — PDF page 70
+### Image 29 — PDF page 71
 
-<a href="figures/figure-034-page-070.png"><img src="figures/figure-034-page-070.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 29, PDF page 70" style="max-width:100%;"></a>
+<a href="figures/figure-034-page-071.png"><img src="figures/figure-034-page-071.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 29, PDF page 71" style="max-width:100%;"></a>
 
-### Image 30 — PDF page 72
+### Image 30 — PDF page 73
 
 Figure 27: Neurogarden’s synthetic point-spread and projection bench. The image is an educational numerical scene, not anatomical or clinical data.
 
-<a href="figures/figure-035-page-072.png"><img src="figures/figure-035-page-072.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 30, PDF page 72" style="max-width:100%;"></a>
+<a href="figures/figure-035-page-073.png"><img src="figures/figure-035-page-073.png" alt="Accessible Volume and the Architecture of Autonomy, embedded image 30, PDF page 73" style="max-width:100%;"></a>
 
 ## Complete page index
 
@@ -241,4 +241,4 @@ Click any page to open its full-resolution render. This section is the complete 
 | <a href="pages/page-076.jpg"><img src="pages/page-076.jpg" alt="PDF page 76" width="280"><br>Page 76</a> | <a href="pages/page-077.jpg"><img src="pages/page-077.jpg" alt="PDF page 77" width="280"><br>Page 77</a> | <a href="pages/page-078.jpg"><img src="pages/page-078.jpg" alt="PDF page 78" width="280"><br>Page 78</a> |
 | <a href="pages/page-079.jpg"><img src="pages/page-079.jpg" alt="PDF page 79" width="280"><br>Page 79</a> | <a href="pages/page-080.jpg"><img src="pages/page-080.jpg" alt="PDF page 80" width="280"><br>Page 80</a> | <a href="pages/page-081.jpg"><img src="pages/page-081.jpg" alt="PDF page 81" width="280"><br>Page 81</a> |
 | <a href="pages/page-082.jpg"><img src="pages/page-082.jpg" alt="PDF page 82" width="280"><br>Page 82</a> | <a href="pages/page-083.jpg"><img src="pages/page-083.jpg" alt="PDF page 83" width="280"><br>Page 83</a> | <a href="pages/page-084.jpg"><img src="pages/page-084.jpg" alt="PDF page 84" width="280"><br>Page 84</a> |
-| <a href="pages/page-085.jpg"><img src="pages/page-085.jpg" alt="PDF page 85" width="280"><br>Page 85</a> |  |  |
+| <a href="pages/page-085.jpg"><img src="pages/page-085.jpg" alt="PDF page 85" width="280"><br>Page 85</a> | <a href="pages/page-086.jpg"><img src="pages/page-086.jpg" alt="PDF page 86" width="280"><br>Page 86</a> |  |

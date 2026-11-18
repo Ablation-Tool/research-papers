@@ -366,7 +366,7 @@ Thirty-four tests cover strict thresholds, KL divergence and support mismatch, e
 The saved canonical profile digest is
 
 \begin{center}
-\texttt{095d90d336cfbc76d9843c2ec3d527fa368b0995b9ab9bce77a4e986d2edde96}.
+\texttt{5908e43d66207ec12e20e6717cdd2f12df2aa4666948d9713d0df09d3193515f}.
 \end{center}
 
 Fresh end-to-end recomputation reproduces the document exactly. Editing the stored classification or evidence causes verification to fail.
@@ -614,6 +614,39 @@ The verifier checks the saved digest, internal goal provenance, absence of opera
 \embedfile{src/zoe_autonomy/autonomous.py}
 \embedfile{evidence/autonomous/first-step.json}
 \embedfile{evidence/autonomous/verification.json}
+
+\section{Event-Causal Active Perception}
+Version 0.8.0 replaces scene-independent visual reporting with a closed event-driven loop. Events $e_i=(t_i,x_i,y_i,p_i)$, $p_i\in\{-1,+1\}$, enter four sparse spatial modules. Polarity updates reconstruct an occupancy scene; spatial coherence and whole-scene translation matching estimate the current source rather than the centroid of changed pixels. Leaky integration, spike-order features, and bounded local STDP remain subordinate to measured behavior.
+
+A key-value episodic memory separates perception, action, and uncertainty subspaces and preserves immutable previous-record hashes. A compositional forward ensemble models position, direction, and appearance separately. For candidate action $a$ and ensemble member $m$, the model produces a predicted next event representation $\hat z_{t+1}^{(m,a)}$ before selection. Exact nonnegative Dijkstra search evaluates attention trajectories over a time-expanded graph.
+
+Independent uncertainty combines ensemble disagreement, support distance, and polarity anomalies:
+\begin{equation}
+U_t=.55D_t+.35V_t+.10A_t.
+\end{equation}
+An intervention suppresses confident plastic updates and selects abstention independently of candidate utility. Gated local updates separate instructive evidence from plastic storage. Consolidation interleaves novel and familiar episodes and is adopted only when recent validation improves and familiar RMSE does not regress by more than $0.05$ pixels; otherwise the checkpoint is restored.
+
+The protocol was committed before implementation results. It compares adaptive behavior with no-learning, static iLab-inspired saliency, fixed-action, and random-action controls on training, validation, unseen speed-2 transfer, and OOD fixtures. All eleven synthetic checks pass. Adaptive validation prediction RMSE is $4.641453$, versus $5.058147$ without learning. Transfer tracking MAE is $3.265625$, compared with $3.531250$ for static saliency, $3.562500$ for fixed action, and $3.703125$ for random action. OOD detection is $0.875$ with zero validation false positives. The measured adaptive throughput is $71.24$ complete cycles per second on the evaluation host; this is not a power measurement.
+
+Mirrored scenes produce different internally selected attention actions. Real `/dev/video0` frames produce valid sparse change events and a guarded decision with no audio and no retained photograph. All 62 repository tests pass, including the complete protocol and camera provenance. These results establish event-causal behavior on declared fixtures, not biological equivalence, semantic recognition, AGI, consciousness, or uncontrolled-scene competence. The complete iLab source and documentation inventory is preserved separately; legacy build and hardware blockers are not represented as working integrations.
+
+\begin{lstlisting}
+zoe-autonomy event-evaluate --camera /dev/video0 \
+  --output event-camera-evaluation.json
+zoe-autonomy verify-event-evaluation event-camera-evaluation.json
+\end{lstlisting}
+
+\embedfile{EVENT-CAUSAL.md}
+\embedfile{ILAB-INTEGRATION.md}
+\embedfile{evidence/event-causal/protocol.json}
+\embedfile{evidence/event-causal/evaluation.json}
+\embedfile{src/zoe_autonomy/event_core.py}
+\embedfile{src/zoe_autonomy/event_memory.py}
+\embedfile{src/zoe_autonomy/event_reasoning.py}
+\embedfile{src/zoe_autonomy/event_plasticity.py}
+\embedfile{src/zoe_autonomy/event_uncertainty.py}
+\embedfile{src/zoe_autonomy/event_autonomy.py}
+\embedfile{src/zoe_autonomy/event_evaluation.py}
 
 \section{Embedded evidence}
 The PDF embeds the canonical profile, fresh verification, paper source, and integration modules. The complete JSON contains all counterfactual interventions, ranked proposals, goal records, before/after states, guard results, source hashes, and event-chain hashes.

@@ -13,9 +13,9 @@ Each paper has a dedicated visual index with original embedded images, captions 
 | Accessible Volume Beyond the Next Token | 19 | 5 | [Open gallery](05-accessible-volume-beyond-next-token/README.md) |
 | Zoe: A Native GEM for Living Geometry and Inspectable Futures | 13 | 4 | [Open gallery](06-zoe-native-gem/README.md) |
 | Zoe for Everyone | 7 | 3 | [Open gallery](07-zoe-for-everyone/README.md) |
-| Zoe + Autonomy: The Complete Measurement–Action Equation | 12 | 1 | [Open gallery](08-zoe-plus-autonomy-focused/README.md) |
-| Zoe Autonomy: Current System Paper | 14 | 0 | [Open gallery](09-zoe-one-autonomy-system/README.md) |
-| Accessible Volume and the Architecture of Autonomy | 85 | 30 | [Open gallery](10-accessible-volume-architecture-of-autonomy/README.md) |
+| Zoe + Autonomy: The Complete Measurement–Action Equation | 15 | 0 | [Open gallery](08-zoe-plus-autonomy-focused/README.md) |
+| Zoe Autonomy: Current System Paper | 15 | 0 | [Open gallery](09-zoe-one-autonomy-system/README.md) |
+| Accessible Volume and the Architecture of Autonomy | 86 | 30 | [Open gallery](10-accessible-volume-architecture-of-autonomy/README.md) |
 | AFL Defuser: Proposed Patch | 3 | 0 | [Open gallery](11-afl-defuser-proposed-patch/README.md) |
 | Ambiguity Front-Loading in Autoregressive Language Models | 15 | 0 | [Open gallery](12-ambiguity-front-loading-vulnerability/README.md) |
 | Constraint Is Freedom — Introduction Draft | 8 | 0 | [Open gallery](13-constraint-is-freedom-introduction-draft/README.md) |

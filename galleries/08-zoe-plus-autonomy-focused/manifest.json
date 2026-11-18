@@ -1,19 +1,8 @@
 {
   "paper": "papers/08-zoe-plus-autonomy-focused.pdf",
   "title": "Zoe + Autonomy: The Complete Measurement–Action Equation",
-  "pdf_pages": 12,
-  "extracted_images": [
-    {
-      "pdf_page": 3,
-      "number": 0,
-      "width": 1967,
-      "height": 1046,
-      "file": "figures/figure-000-page-003.png",
-      "captions": [
-        "Figure 1: Binary accessible-set representation of the AFL/compliance-cascade hypothesis. Orange positions are newly accessible and blue positions were already accessible. The 1 → 2 → 4 → 9 example is illustrative, not measured production-model probabilities or a guarantee that one seed causes amplification."
-      ]
-    }
-  ],
+  "pdf_pages": 15,
+  "extracted_images": [],
   "page_renders": [
     "pages/page-001.jpg",
     "pages/page-002.jpg",
@@ -26,6 +15,9 @@
     "pages/page-009.jpg",
     "pages/page-010.jpg",
     "pages/page-011.jpg",
-    "pages/page-012.jpg"
+    "pages/page-012.jpg",
+    "pages/page-013.jpg",
+    "pages/page-014.jpg",
+    "pages/page-015.jpg"
   ]
 }

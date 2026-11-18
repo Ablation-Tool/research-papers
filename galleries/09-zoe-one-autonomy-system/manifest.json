@@ -1,7 +1,7 @@
 {
   "paper": "papers/09-zoe-one-autonomy-system.pdf",
   "title": "Zoe Autonomy: Current System Paper",
-  "pdf_pages": 14,
+  "pdf_pages": 15,
   "extracted_images": [],
   "page_renders": [
     "pages/page-001.jpg",
@@ -17,6 +17,7 @@
     "pages/page-011.jpg",
     "pages/page-012.jpg",
     "pages/page-013.jpg",
-    "pages/page-014.jpg"
+    "pages/page-014.jpg",
+    "pages/page-015.jpg"
   ]
 }
